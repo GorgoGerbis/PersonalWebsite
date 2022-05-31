@@ -1,7 +1,37 @@
-.placeholder {
-    background-color: red;
+.nav-wrapper {
+    display:flex;
+    justify-content: space-between;
+    padding: 38px;
 }
 
-.anotherClass {
-    background-color: seagreen;
+.left-side {
+    display: flex;
+}
+
+/* Able to traverse down a tree, look at 37:30 for better explanation */
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em; /* percent size of what it would normally be -> 0.9em == 90% */
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s; /* Set up fade-in with buttons, Half a second fade-in */
+}
+
+/* The extra space plus a means I want you to grab just the a link in the nav-link-wrapper */
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s; /* Setting it up for two animations, first color and then border-bottom */
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
 }
