@@ -1,0 +1,24 @@
+Project Workflow: 05/31/22
+
+Website for pics: https://unsplash.com/
+
+1. Build the Project
+- Repo for code/files github
+- Creating folder
+- Adding files
+- Connecting files
+
+2. Navbar (navigation bar)
+- 2 links and a name
+
+3. Portfolio Item Grid
+- Images
+- Titles
+- Descriptions
+- Animations
+- Java Script
+
+4. About me page
+- Image
+- Split Column layout
+- Content
