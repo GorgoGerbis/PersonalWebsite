@@ -3,7 +3,8 @@ Project Workflow: 05/31/22
 Youtube Video: https://www.youtube.com/watch?v=5bMdjkfvONE&list=RDCMUCzw4hbQIePVtyJQzE_F8QDg&start_radio=1&rv=5bMdjkfvONE&t=502
 Website for pics: https://unsplash.com/
 
-LAST STOPPING POINT: 46:00 - Just finished the nav bar!
+- 46:00 - Just finished the nav bar!
+LAST STOPPING POINT: 1:06:00 - Just finished adding the 12 images to the portfolio!
 
 1. Build the Project
 - Repo for code/files github
