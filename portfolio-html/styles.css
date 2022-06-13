@@ -1,3 +1,14 @@
+/* Master Styles */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* Create these columns in the grid with 1fr or 1 fractional unit. */
+}
+
+/* Nav Styles */
 .nav-wrapper {
     display:flex;
     justify-content: space-between;
@@ -34,4 +45,35 @@
 
 .nav-link-wrapper a:hover {
     color: black;
+}
+
+/* Portfolio Syles */
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Give each one of the columns and give three of them */
+}
+
+.portfolio-item-wrapper {
+    position: relative; /* Lets us have flexibility with positioning of items inside the element */
+}
+
+.portfolio-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute; 
+    top: 0; /* Positioned at the very top and all elements inside will use flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
